@@ -30,10 +30,10 @@ jobs:
     steps:
       - name: Displaying all Default variables
         run: |
-          echo "GITHUB_WORKFLOW: ${"GITHUB_WORKFLOW}"
-          echo "GITHUB_WORKSPACE: ${"GITHUB_WORKSPACE}"
+          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
+          echo "GITHUB_WORKSPACE: ${GITHUB_WORKSPACE}"
           echo "GITHUB_SHA: ${GITHUB_SHA}"
           echo "GITHUB_REF: ${GITHUB_REF}" 
-          echo "GITHUB_ACTION: ${"GITHUB_ACTION}"
-          echo "GITHUB_ACTIONS: ${"GITHUB_ACTIONS}"
-          echo "GITHUB_ACTOR: ${"GITHUB_ACTOR}"
+          echo "GITHUB_ACTION: ${GITHUB_ACTION}"
+          echo "GITHUB_ACTIONS: ${GITHUB_ACTIONS}"
+          echo "GITHUB_ACTOR: ${GITHUB_ACTOR}"
